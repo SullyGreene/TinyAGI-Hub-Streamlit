@@ -94,47 +94,47 @@ if page == "Dashboard":
 elif page == "Manage Agents":
     st.subheader("🔧 Manage Agents")
     st.info("On this page, you can add, remove, or modify agents in your TinyAGI system.")
-    from hub_pages.a_manage_agents import manage_agents
+    from pages.workshop.a_manage_agents import manage_agents
     manage_agents()
 
 elif page == "Manage Plugins":
     st.subheader("🔌 Manage Plugins")
     st.info("Plugins extend the capabilities of TinyAGI. Here, you can manage the plugins, add new ones, or remove existing ones.")
-    from hub_pages.b_manage_plugins import manage_plugins
+    from pages.workshop.b_manage_plugins import manage_plugins
     manage_plugins()
 
 elif page == "Manage Tools":
     st.subheader("🛠 Manage Tools")
     st.info("Tools are external utilities that TinyAGI uses. This page allows you to add, configure, or remove tools.")
-    from hub_pages.c_manage_tools import manage_tools
+    from pages.workshop.c_manage_tools import manage_tools
     manage_tools()
 
 elif page == "Manage Modules":
     st.subheader("📦 Manage Modules")
     st.info("Modules are additional capabilities you can add to TinyAGI. Manage and configure them here.")
-    from hub_pages.d_manage_modules import manage_modules
+    from pages.workshop.d_manage_modules import manage_modules
     manage_modules()
 
 elif page == "Manage Services":
     st.subheader("⚙️ Manage Services")
     st.info("Manage background services used by TinyAGI on this page. Start, stop, or configure services as needed.")
-    from hub_pages.e_manage_services import manage_services
+    from pages.workshop.e_manage_services import manage_services
     manage_services()
 
 elif page == "Configuration Builder":
     st.subheader("🛠️ Configuration Builder")
     st.info("Use this page to create or modify configuration files that TinyAGI uses to control its behavior.")
-    from hub_pages.f_configuration_builder import configuration_builder
+    from pages.workshop.f_configuration_builder import configuration_builder
     configuration_builder()
 
 elif page == "Task Execution":
     st.subheader("🚀 Task Execution")
     st.info("Execute predefined tasks configured in TinyAGI. You can select a task and initiate its execution here.")
-    from hub_pages.g_task_execution import task_execution
+    from pages.workshop.g_task_execution import task_execution
     task_execution()
 
 elif page == "Hub Integration":
     st.subheader("🔗 Hub Integration")
     st.info("Explore the TinyAGI Hub to discover new agents, plugins, modules, and tools contributed by the community.")
-    from hub_pages.h_hub_integration import hub_integration
+    from pages.workshop.h_hub_integration import hub_integration
     hub_integration()

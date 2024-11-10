@@ -1,2 +1,14 @@
-TinyAGI
+tinyagi
 streamlit
+gitpython
+python-dotenv
+wikipedia-api
+openai
+llama-cpp-python
+ollama
+black
+nltk
+flask
+wikipedia
+emoji
+PyYAML

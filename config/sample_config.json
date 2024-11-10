@@ -1,0 +1,26 @@
+{
+    "agents": [
+        {
+            "name": "default_agent",
+            "module": "openai_agent",
+            "class": "OpenAIAgent",
+            "config": {
+                "name": "gpt-3.5-turbo",
+                "type": "chat",
+                "parameters": {
+                    "temperature": 0.7,
+                    "max_tokens": 150
+                }
+            }
+        }
+    ],
+    "plugins": [
+        {
+            "name": "DefaultPlugin",
+            "module": "default_plugin",
+            "class": "DefaultPlugin",
+            "config": {}
+        }
+    ],
+    "tools": []
+}
